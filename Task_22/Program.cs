@@ -1,10 +1,9 @@
 ﻿Console.WriteLine("Введите число: ");
 int num = int.Parse(Console.ReadLine());
-int number = 0;
-int number1 = 0;
+int number = 1;
 while (number <= num)
 {
-    Console.WriteLine(number1 = number * number);
+    Console.WriteLine($"{number,5} | {number * number,5}");
     number++;
 }
 Console.WriteLine("Конец");
