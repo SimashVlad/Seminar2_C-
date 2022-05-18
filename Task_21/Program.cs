@@ -9,4 +9,5 @@ int number1 = numA1 - numB1;
 int number2 = numA2 - numB2;
 
 double result = Math.Sqrt(number1 * number1 + number2 * number2);
-Console.WriteLine($"Расстояние между точками =  {result}");
+double n = Math.Round(result,2);
+Console.WriteLine($"Расстояние между точками =  {n}");
