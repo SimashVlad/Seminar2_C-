@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("Введите координату х: ");
+﻿Console.WriteLine("Введите координату х: ");
 int x = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите координату y: ");
 int y = int.Parse(Console.ReadLine());
