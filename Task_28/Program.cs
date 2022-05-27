@@ -22,5 +22,5 @@ int GetNumbers (int number)                               // метод int  к�
     return sum;
 }
 
-int sumResult = GetNumbers (num);
+int sumResult = GetNumbers (number);
 Console.WriteLine($"Произведение чисел от 1 до {num} = {sumResult}");

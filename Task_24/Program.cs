@@ -7,7 +7,7 @@
 
 
 
-Console.Write("Введите натуральное число ");
+/* Console.Write("Введите натуральное число ");
 int num = int.Parse(Console.ReadLine());
 
 int GetSumNumbers(int number)                               // метод int  который что то возвращает
@@ -21,11 +21,11 @@ int GetSumNumbers(int number)                               // метод int  �
 }
 
 int sumResult = GetSumNumbers (num);
-Console.WriteLine($"Сумма чисел от 1 до {num} = {sumResult}");
+Console.WriteLine($"Сумма чисел от 1 до {num} = {sumResult}"); */
 
 
 // не корректный метод который не рекомендуется использовать
-/* Console.Write("Введите натуральное число ");
+Console.Write("Введите натуральное число ");
 int num = int.Parse(Console.ReadLine());
 
 void GetSumNumbers(int number)                              // метод void  который не возвращает ничего
@@ -38,6 +38,6 @@ void GetSumNumbers(int number)                              // метод void  
     Console.WriteLine($"Сумма чисел от 1 до {num} = {sum}");
 }
 
-GetSumNumbers(num); */
+GetSumNumbers(num);
 
 
