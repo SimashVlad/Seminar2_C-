@@ -37,9 +37,8 @@ void PrintArray(int[,] array)
     }
 }
 
-int GetSum(int[,] array)
+int GetSum(int[,] array, int sum)
 {
-    int sum = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
@@ -53,7 +52,7 @@ int GetSum(int[,] array)
     return sum;
 }
 
-int[,] arr = GetArray(7, 5);
+int[,] arr = GetArray(5, 7);
 PrintArray(arr);
 int sum = GetSum(arr);
-Console.WriteLine(sum);
+System.Console.WriteLine();
